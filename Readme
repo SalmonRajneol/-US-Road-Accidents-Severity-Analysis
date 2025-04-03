@@ -1,34 +1,58 @@
 🚗 US Road Accidents Severity Analysis
-📌 Project Overview
-🧠 Inspiration & Context
-“Advancing Decision-Making in Computer Information Systems through Sophisticated Data Visualization” (2022) outlines how advanced visualization methods empower better decision-making by making large and complex datasets more interpretable. This project aligns with that philosophy by applying real-world geospatial and severity-based visualization to uncover insights in U.S. road accident data.
-This project analyzes the spatial distribution and severity (fatal vs. non-fatal) of road accidents across the United States, focusing on trends before and after a key date (e.g., a policy change or event). The goal is to extract actionable insights from geolocation data to support safety and infrastructure decisions.
+Visualizing Data to Drive Safer Roads
+“The ability to visualize large, complex datasets is central to modern decision-making in computer information systems.”
+— Inspired by the research article Advancing Decision-Making through Sophisticated Data Visualization (2022)
 
-📊 Key Highlights
-Severity Mapping
-Visualized accident severity using scatter plots across longitude and latitude. Red triangles indicate fatal accidents, while gray triangles denote non-fatal ones.
+🧩 Project Objective
+This project explores the severity and geospatial distribution of road accidents in the United States, with a focus on identifying trends before and after a significant date (e.g., a policy shift or pandemic milestone).
 
-Temporal Impact
-Split the data to analyze patterns before and after a certain date, observing shifts in the geographical and severity distribution of accidents.
+🔍 Key Insights
+Created a scatter map of accident locations using longitude and latitude.
 
-Visual Storytelling
-Used distinct markers and colors to clearly communicate severity differences. Integrated a high-contrast design to highlight clusters and trends effectively.
+Differentiated between fatal (red) and non-fatal (gray) accidents using marker shapes.
 
-Geospatial Analysis
-Plotted data on a US map grid to detect accident hotspots and spatial trends.
+Detected regional clusters and potential hotspots of fatal accidents.
 
-🛠 Tools & Technologies
-Python: Pandas, NumPy for data processing
+Visualized change in accident patterns over time using layered plots.
 
-Matplotlib / Seaborn: for custom visualizations
+📊 Techniques & Tools Used
+Category	Tools/Methods
+Language	Python
+Visualization	Matplotlib, Seaborn
+Data Wrangling	Pandas, NumPy
+Presentation	PowerPoint, Adobe Illustrator (Design Slides)
+Conceptual Base	KDE, Box Plots, Correlation Maps (as studied in article)
+🧠 Theory in Practice
+This project integrates concepts from the article:
 
-PowerPoint / Illustrator: for final presentation design
+KDE (Kernel Density Estimation) to identify hotspots (potential extension).
 
-Jupyter Notebook: for step-by-step analysis and explanation
+Categorical Visualization to differentiate accident severity.
 
-📈 Outcomes
-Identified high-risk zones and severity-based accident patterns.
+Visual Storytelling using strong contrast, symbols, and annotations.
 
-Produced clean, publication-quality visuals suitable for stakeholders.
+Performance Metrics to track accident types across time frames.
 
-Demonstrated skills in data visualization, geospatial analysis, and communication of insights.
+📁 Files in this Repo
+notebooks/analysis.ipynb: Main notebook with data cleaning, plots, and interpretations.
+
+visuals/: Contains images like the US scatter plot used in presentations.
+
+presentation/: Final slides, including the title slide and insights.
+
+data/accidents.csv: (Sample dataset - no real data shared here).
+
+README.md: You’re reading it.
+
+requirements.txt: All Python libraries needed.
+
+📌 Conclusion
+This project showcases how data visualization bridges raw data and actionable insights, especially in high-stakes scenarios like road safety. It demonstrates proficiency in geospatial analysis, data-driven storytelling, and exploratory data analysis — key skills for a Data Analyst role.
+
+📚 References
+Great Learning Team. (2022). Data Visualization Techniques. Link
+
+KDnuggets. (2019). Best Data Visualization Techniques. Link
+
+GoFurther. A Data-Informed Framework for Decision-Making. Link
+
