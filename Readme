@@ -1,5 +1,7 @@
 🚗 US Road Accidents Severity Analysis
 📌 Project Overview
+🧠 Inspiration & Context
+“Advancing Decision-Making in Computer Information Systems through Sophisticated Data Visualization” (2022) outlines how advanced visualization methods empower better decision-making by making large and complex datasets more interpretable. This project aligns with that philosophy by applying real-world geospatial and severity-based visualization to uncover insights in U.S. road accident data.
 This project analyzes the spatial distribution and severity (fatal vs. non-fatal) of road accidents across the United States, focusing on trends before and after a key date (e.g., a policy change or event). The goal is to extract actionable insights from geolocation data to support safety and infrastructure decisions.
 
 📊 Key Highlights
