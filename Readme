@@ -1,0 +1,32 @@
+🚗 US Road Accidents Severity Analysis
+📌 Project Overview
+This project analyzes the spatial distribution and severity (fatal vs. non-fatal) of road accidents across the United States, focusing on trends before and after a key date (e.g., a policy change or event). The goal is to extract actionable insights from geolocation data to support safety and infrastructure decisions.
+
+📊 Key Highlights
+Severity Mapping
+Visualized accident severity using scatter plots across longitude and latitude. Red triangles indicate fatal accidents, while gray triangles denote non-fatal ones.
+
+Temporal Impact
+Split the data to analyze patterns before and after a certain date, observing shifts in the geographical and severity distribution of accidents.
+
+Visual Storytelling
+Used distinct markers and colors to clearly communicate severity differences. Integrated a high-contrast design to highlight clusters and trends effectively.
+
+Geospatial Analysis
+Plotted data on a US map grid to detect accident hotspots and spatial trends.
+
+🛠 Tools & Technologies
+Python: Pandas, NumPy for data processing
+
+Matplotlib / Seaborn: for custom visualizations
+
+PowerPoint / Illustrator: for final presentation design
+
+Jupyter Notebook: for step-by-step analysis and explanation
+
+📈 Outcomes
+Identified high-risk zones and severity-based accident patterns.
+
+Produced clean, publication-quality visuals suitable for stakeholders.
+
+Demonstrated skills in data visualization, geospatial analysis, and communication of insights.
